@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KotlinBatch6M2026</string>
+    <string name="first_app">Hello, This is my first Android Project</string>
+    <string name="intro">Hello EveryOne</string>
+</resources>
