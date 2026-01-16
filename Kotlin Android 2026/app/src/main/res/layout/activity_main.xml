@@ -9,9 +9,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 <!--    Parent View -->
-
 <!--  Child View  -->
-
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
+        android:textColor="@color/blue"
         android:layout_marginHorizontal="10dp"
         android:text="@string/intro"/>
 
@@ -34,8 +33,20 @@
         android:text="Submit"/>
 
 
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Name"/>-->
 
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Rajat"/>-->
 
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="class"/>-->
 
 
 </LinearLayout>
