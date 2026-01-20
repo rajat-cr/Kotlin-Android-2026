@@ -3,4 +3,6 @@
     <string name="intro">Hello EveryOne</string>
     <string name="first_app">Hello, This is my first Android Project</string>
     <string name="enter_name">Enter Your Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

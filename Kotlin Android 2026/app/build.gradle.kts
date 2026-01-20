@@ -4,8 +4,12 @@ plugins {
 }
 
 android {
+
+
     namespace = "com.coderroots.kotlinbatch6m2026"
     compileSdk = 36
+
+
 
     defaultConfig {
         applicationId = "com.coderroots.kotlinbatch6m2026"
@@ -32,6 +36,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = "11"
+    }
+    buildFeatures{
+        viewBinding = true
     }
 }
 

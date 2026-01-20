@@ -12,10 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinBatch6M2026">
         <activity
-            android:name=".RelativeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".FieldActivity"
+            android:name=".ConstraintLayout"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,8 +21,23 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".FragmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RelativeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FieldActivity"
+            android:exported="true">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
