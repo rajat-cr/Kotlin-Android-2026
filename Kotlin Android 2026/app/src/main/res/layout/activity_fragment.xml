@@ -8,34 +8,13 @@
     android:orientation="vertical"
     tools:context=".FragmentActivity">
 
+
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/containerView"
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="300dp"
         android:name="com.coderroots.kotlinbatch6m2026.FirstFragment"/>
 
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/etName"
-
-        android:layout_marginHorizontal="10dp"
-        android:layout_marginVertical="20dp"
-        android:hint="Enter Your Name"
-        />
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnSubmit"
-        android:layout_width="match_parent"
-        android:layout_height="55dp"
-        app:cornerRadius="7dp"
-        android:layout_marginHorizontal="10dp"
-        android:layout_marginVertical="10dp"
-        android:textStyle="bold"
-        android:backgroundTint="@color/blue"
-        android:text="Submit"
-        />
 
 
 </LinearLayout>
