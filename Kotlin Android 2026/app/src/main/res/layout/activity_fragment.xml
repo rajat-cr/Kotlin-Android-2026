@@ -8,13 +8,25 @@
     android:orientation="vertical"
     tools:context=".FragmentActivity">
 
-
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/containerView"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:name="com.coderroots.kotlinbatch6m2026.FirstFragment"/>
+        android:id="@+id/container"
+        android:name="com.coderroots.kotlinbatch6m2026.HomeFragment"/>
 
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:hint="Enter Name"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:id="@+id/btnSubmit"/>
 
 </LinearLayout>
