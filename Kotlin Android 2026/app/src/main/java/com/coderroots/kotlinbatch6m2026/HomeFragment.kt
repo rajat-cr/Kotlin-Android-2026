@@ -7,8 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import com.coderroots.kotlinbatch6m2026.databinding.FragmentHomeBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 
 class HomeFragment : Fragment(), SetName {
     lateinit var binding: FragmentHomeBinding
@@ -19,7 +17,6 @@ class HomeFragment : Fragment(), SetName {
         binding = FragmentHomeBinding.inflate(layoutInflater)
         fragmentActivity = activity as FragmentActivity
         fragmentActivity.setName = this
-
     }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -36,6 +33,10 @@ class HomeFragment : Fragment(), SetName {
 
     override fun setName(name: String) {
         binding.tvName.text = name
+    }
+
+    override fun increment(count: Int) {
+
     }
 
     companion object {

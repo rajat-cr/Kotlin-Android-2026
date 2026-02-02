@@ -12,8 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinBatch6M2026">
         <activity
-            android:name=".ConstraintDeepakLayout"
-            android:exported="true">
+            android:name=".ListViewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.KotlinBatch6M2026">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,13 +22,35 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".FragmentRajatActivity"
+            android:exported="true">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".ConstraintDeepakLayout"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
             android:name=".FragmentActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".RelativeActivityDeepak"
